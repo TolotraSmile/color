@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: white;
+    color: #c8c8c8;
+    width: 100%;
+    height: 100%;
+    transition: backgroud-color 1s;
+}
+
+input {
+    height: 68px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-size: 38px;
+    border-bottom: 1px dotted #fff;
+}
+
+input:focus {
+    border-bottom: 2px dotted #fff;
+    outline: none;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box__content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box__item {
+    display: block;
+    text-align: center;
+}
